@@ -18,12 +18,12 @@ subplot(1,3,1)
 contour(Y,'LineWidth',3) 
 set(gca,'Color','k','XColor', 'none','YColor','none')
 
-% draw 2st view
+% draw 2nd view
 subplot(1,3,2)
 contour(Z,'LineWidth',3)
 set(gca,'Color','k','XColor', 'none','YColor','none')
 
-% draw 3st view
+% draw 3rd view
 subplot(1,3,3)
 contour(X,'LineWidth',3)
 set(gca,'Color','k','XColor', 'none','YColor','none')
