@@ -6,7 +6,7 @@ X = squeeze(vol.img(100,:,:)))'; % slect the slice for the 1st view
 Y = squeeze(vol.img(:,100,:))'; % slect the slice for the 2nd view
 Z = squeeze(vol.img(:,:,100))'; % slect the slice for the 3rd view
 
-% open and set figure dimensionsand and background color
+% open and set figure dimensions and background color
 a = figure;
 width=1000;
 height=900;
