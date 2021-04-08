@@ -2,7 +2,7 @@
 % Otherwise you can download the SPM toolbox (Friston, K. J. et al., 1994) and use their ~/Tamplate/T1.nii.
 
 vol = load_nii('~/T1.nii'); % read your T1 volume image here
-X = squeeze(vol.img(100,:,:)))'; % slect the slice for the 1st view
+X = squeeze(vol.img(100,:,:))'; % slect the slice for the 1st view
 Y = squeeze(vol.img(:,100,:))'; % slect the slice for the 2nd view
 Z = squeeze(vol.img(:,:,100))'; % slect the slice for the 3rd view
 
